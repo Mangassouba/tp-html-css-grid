@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Courier New, Courier, monospace';
+}
+
 .item{
     margin: 10;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
     border-radius: 0 0 40px;
     box-shadow: 0 6px #bd0e0e5e;
 
