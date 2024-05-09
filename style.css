@@ -23,18 +23,30 @@ body{
     box-shadow: 0 6px 6px #bd0e0e5e;
     padding: 20px;
 }
+.item{
+    cursor: pointer;
+}
 
+.item:hover{
+    background-color:#bd0e0e5e;
+}
 .item1{
     grid-column: 2/ span 16;  
     grid-row: 1;
+    border-top: 0;
+
 }
 .item2{
     grid-column: 3/ span 10;
     grid-row: 2;
+    border-top: 0;
+
 }
 .item3{
     grid-column: 3/ span 10;
     grid-row: 3;
+    border-top: 0;
+
 }
 
 .container{
